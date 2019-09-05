@@ -289,7 +289,7 @@ def get_net_symbol(deploy_flag=False):
     if deploy_flag:
         predict_score_4, predict_bbox_4 = loss_branch(relu15, 'conv15', deploy_flag=deploy_flag)
     else:
-        loss_score_4, loss_bbox_4 = loss_branch(relu13, 'conv15', mask=mask_4, label=label_4)
+        loss_score_4, loss_bbox_4 = loss_branch(relu15, 'conv15', mask=mask_4, label=label_4)
 
     # conv block 16 ----------------------------------------------------------------------------------------
     conv16 = mxnet.symbol.Convolution(data=relu15,
