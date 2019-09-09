@@ -7,6 +7,7 @@ been presented in repo README.md.
 * `2019.08.22` latency evaluation on TX2 is added.
 * `2019.08.25` RetinaFace-MobileNet-0.25 is added for comparison (both accuracy and latency).
 * `2019.09.03` a better augmentation procedure replaces the old one in dataiter.
+* `2019.09.09` LFFD is ported to NCNN ([link](https://github.com/SyGoing/LFFD-with-ncnn)) and MNN ([link](https://github.com/SyGoing/LFFD-MNN)) by [SyGoing](https://github.com/SyGoing), great thanks to SyGoing.
 
 ### Brief Introduction to Model Version
 * v1 - refer to the paper for details
